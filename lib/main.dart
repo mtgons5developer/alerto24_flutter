@@ -18,7 +18,7 @@ void main() async {
   );
   if (kIsWeb) {
     FacebookAuth.i.webInitialize(
-      appId: "1129634001214960", // Replace with your app id
+      appId: "740502187199520", // Replace with your app id
       cookie: true,
       xfbml: true,
       version: "v12.0",
