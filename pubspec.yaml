@@ -1,0 +1,42 @@
+name: alerto24
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  video_player: ^2.4.7
+  get:
+  firebase_core: ^1.22.0
+  webview_flutter_plus: ^0.3.0+2
+  firebase_database: ^9.1.4
+  firebase_auth: ^3.8.0
+  cloud_firestore: ^3.4.7
+  google_fonts: ^3.0.1
+  provider: 
+  flutter_facebook_auth:
+  google_sign_in:
+  font_awesome_flutter: ^10.2.1
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/videos/
