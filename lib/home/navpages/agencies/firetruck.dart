@@ -20,23 +20,25 @@ class _FetchDataState extends State<FireTruckPage> {
       padding: const EdgeInsets.all(5),
       height: 70,
       color: Colors.blue.shade200,
-      child: Column(
+      child: Row(
         mainAxisAlignment: MainAxisAlignment.center,
-        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text("TEXT",
+          Text("Fire Station:",
+              textAlign: TextAlign.center,
               // task['assignedTo'],
-              style: TextStyle(fontSize: 8, fontWeight: FontWeight.w400)),
-          const SizedBox(
-            height: 5,
+              style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
+          SizedBox(
+            width: 10,
           ),
-          Text(task['category'],
-              style: TextStyle(fontSize: 8, fontWeight: FontWeight.w400)),
-          const SizedBox(
-            height: 5,
+          Text("Location:",
+              // Text(task['category'],
+              style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
+          SizedBox(
+            width: 10,
           ),
-          Text(task['createdBy'],
-              style: TextStyle(fontSize: 8, fontWeight: FontWeight.w400)),
+          Text("Distance:",
+              // Text(task['createdBy'],
+              style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
         ],
       ),
     );

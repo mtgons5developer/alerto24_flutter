@@ -47,23 +47,27 @@ class _TiktokPageState extends State<TiktokPage> {
           elevation: 0,
           items: [
             BottomNavigationBarItem(
-              icon: Icon(Icons.home),
+              icon: Icon(Icons.home, size: 40.0),
               label: '0',
             ),
             BottomNavigationBarItem(
-              icon: Icon(Icons.task),
+              icon: Icon(Icons.task, size: 40.0),
               label: '1',
             ),
             BottomNavigationBarItem(
-              icon: Icon(Icons.emergency, size: 40.0),
+              icon: Icon(
+                Icons.emergency,
+                size: 40.0,
+                color: Colors.red[900],
+              ),
               label: '2',
             ),
             BottomNavigationBarItem(
-              icon: Icon(Icons.emergency_recording_sharp),
+              icon: Icon(Icons.cloud_upload, size: 40.0),
               label: '3',
             ),
             BottomNavigationBarItem(
-              icon: Icon(Icons.person),
+              icon: Icon(Icons.person, size: 40.0),
               label: '4',
             ),
           ],

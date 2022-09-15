@@ -17,6 +17,7 @@ class _HelpPageState extends State<HelpPage> {
         child: Scaffold(
           appBar: AppBar(
             title: Text('Agencies'),
+            centerTitle: true,
             flexibleSpace: Container(
               decoration: BoxDecoration(
                 gradient: LinearGradient(
@@ -33,22 +34,26 @@ class _HelpPageState extends State<HelpPage> {
                 Tab(
                     icon: Icon(
                   Icons.health_and_safety,
+                  color: Colors.red[900],
                   size: 40,
                 )),
                 Tab(
                     icon: Icon(
                   Icons.local_police,
                   size: 40,
+                  color: Colors.blue[900],
                 )),
                 Tab(
                     icon: Icon(
                   Icons.local_activity,
                   size: 40,
+                  color: Colors.green[900],
                 )),
                 Tab(
                     icon: Icon(
                   Icons.fire_extinguisher,
                   size: 40,
+                  color: Colors.yellow[500],
                 )),
               ],
             ),
