@@ -5,7 +5,6 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import '../../navpages/homepage/home_page.dart';
-import 'login_page.dart';
 
 class RegisterPage extends StatefulWidget {
   static String routeName = '/login_page';
